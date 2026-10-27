@@ -6,7 +6,7 @@ gem "kramdown", :platforms => :jruby
 gem "RedCloth"
 gem "commonmarker", ENV.fetch("COMMONMARKER_VERSION", "~> 2.8.2")
 gem "rdoc", ENV.fetch("RDOC_VERSION", "~> 7.2.0")
-gem "org-ruby", "0.9.12"
+gem "org-ruby", "0.10.1"
 gem "creole", "~>0.5.0"
 gem "wikicloth", "=0.8.3"
 gem "twitter-text", "~> 1.14"
