@@ -76,8 +76,9 @@ GEM
     nokogiri-diff (0.3.0)
       nokogiri (~> 1.5)
       tdiff (~> 0.4)
-    org-ruby (0.9.12)
-      rubypants (~> 0.2)
+    org-ruby (0.10.1)
+      logger (>= 1.5)
+      rubypants (~> 0.7)
     prism (1.9.0)
     psych (5.3.1)
       date
@@ -149,7 +150,7 @@ DEPENDENCIES
   minitest (~> 6.0, >= 5.4.3)
   nokogiri (~> 1.19.2)
   nokogiri-diff (~> 0.3.0)
-  org-ruby (= 0.9.12)
+  org-ruby (= 0.10.1)
   rake (~> 13)
   rdoc (~> 7.2.0)
   redcarpet
