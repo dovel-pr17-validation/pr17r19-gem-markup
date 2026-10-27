@@ -31,6 +31,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'html-pipeline', '~> 3.2'
   s.add_development_dependency 'nokogiri', '~> 1.19.2'
   s.add_development_dependency 'nokogiri-diff', '~> 0.3.0'
-  s.add_development_dependency "github-linguist", ">= 7.1.3"
+  s.add_development_dependency "github-linguist", ">= 9.7.0"
   s.add_development_dependency 'simplecov', '~> 0.22'
 end
